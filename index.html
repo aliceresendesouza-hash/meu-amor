@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para o Meu Amor ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- Container Principal -->
+  <div class="container">
+    <div class="heart-header">❤️✨❤️</div>
+    <h1>Para o Amor da Minha Vida</h1>
+    <p class="subtitle">Clique nos botões abaixo para ler o que eu sinto por você!</p>
+
+    <!-- Exibição das Frases -->
+    <div class="message-box" id="messageBox">
+      <p id="phraseText">Clique em qualquer botão abaixo... ✨</p>
+    </div>
+
+    <!-- Botões Clicáveis -->
+    <div class="buttons-grid">
+      <button class="love-btn" onclick="showMessage(1)">💌 Motivo #1</button>
+      <button class="love-btn" onclick="showMessage(2)">✨ O que eu amo</button>
+      <button class="love-btn" onclick="showMessage(3)">🐻 Um Abraço</button>
+      <button class="love-btn" onclick="showMessage(4)">🔮 Nosso Futuro</button>
+      <button class="love-btn btn-full" onclick="showMessage('random')">🎲 Surpresa do Dia</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
